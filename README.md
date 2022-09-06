@@ -1,3 +1,10 @@
+# [LeetCode](https://leetcode.com/problemset/algorithms/)
+Resource: https://github.com/fishercoder1534/Leetcode
+
+_Agar bu loyiha sizga yoqgan bo'lsa, yulduzcha qo'yishni unutmang._ &#9733;
+
+> ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
+
 ## Algorithms
 
 | #    |      Title     | Solutions                                                                                                                                | Video                                                                         | Difficulty                       | Tag                  
