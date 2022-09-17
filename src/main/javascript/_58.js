@@ -1,11 +1,10 @@
 //58. Length of Last Word
 
-//The dummiest solution ever. The first solution I got.
+//The dummiest solution ever. The first solution I got without using methods.
 
 var lengthOfLastWord = function(s) {
     let word = "";
     let words = [];
-    let from = 0;
     for ( i = 0; i < s.length; i++ ) {
         if(s[i] !== " ") {
             word += s[i];
@@ -19,5 +18,12 @@ var lengthOfLastWord = function(s) {
         words.push(word)
     }
     
-    return words[words.length -1].length;
+    return words.length ? words[words.length -1].length : 0;
+};
+
+// The second solution after going through the methods of String
+
+var lengthOfLastWord = function(s) {
+    let words = s.trim().split(" ");
+    return words.length ? words[words.length -1].length : 0;
 };
